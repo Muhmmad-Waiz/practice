@@ -11,7 +11,7 @@ function example(value) {
         console.log(value.toFixed(2));
     }
 }
-example("waiz");
+example("waiz bhai jan");
 example(40);
 //instance of
 var dog = /** @class */ (function () {
