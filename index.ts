@@ -369,43 +369,43 @@
 
                                                             //type narrowing
                                                             //typeof
-type Mytype = string |number;     
+// type Mytype = string |number;     
 
-function example(value : Mytype) : void{
-    if(typeof value === "string"){
-        console.log(value.toUpperCase());
-    } else{
-        console.log(value.toFixed(2))
-    }
-}
-example("waiz")
-example(40)
-                                                            //instance of
-class dog{
-    bark() : void{
-    console.log("wow wow wow")
-    }
-}
-class cat{
-    bark() :void{
-        console.log("meow meow")
-    }
-}
-function animalsound(animal: dog|cat): void{
-    if (animal instanceof dog){
-        animal.bark()
-    } else{
-        animal.bark()
-    }
-}
+// function example(value : Mytype) : void{
+//     if(typeof value === "string"){
+//         console.log(value.toUpperCase());
+//     } else{
+//         console.log(value.toFixed(2))
+//     }
+// }
+// example("waiz")
+// example(40)
+//                                                             //instance of
+// class dog{
+//     bark() : void{
+//     console.log("wow wow wow")
+//     }
+// }
+// class cat{
+//     bark() :void{
+//         console.log("meow meow")
+//     }
+// }
+// function animalsound(animal: dog|cat): void{
+//     if (animal instanceof dog){
+//         animal.bark()
+//     } else{
+//         animal.bark()
+//     }
+// }
 
-const dog1 = new dog()
-const cat1 = new cat()
-console.log(dog1)
-console.log(cat1)
-animalsound(dog1)
-animalsound(cat1)
-                                                        // intersection
-                                                        // we studied it previous "&"
+// const dog1 = new dog()
+// const cat1 = new cat()
+// console.log(dog1)
+// console.log(cat1)
+// animalsound(dog1)
+// animalsound(cat1)
+//                                                         // intersection
+//                                                         // we studied it previous "&"
 
                                                         
